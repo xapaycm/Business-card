@@ -1,0 +1,67 @@
+.body {
+  background-color: azure;
+  font-family: Arial, Sans-serif;
+  bottom: 0;
+  margin: 0;
+}
+h1 {
+  font-family: Montez, serif;
+  font-size: 3em;
+} 
+h2 {
+  font-family: serif;
+}
+
+.header {
+  text-align: center;
+  color: maroon;
+  border-bottom: 1px solid maroon;
+}
+.navtext {
+  padding: 20px;
+}
+.link {
+  margin: 0 10px;
+  color: maroon;
+}
+.link:hover {
+  color: black;
+  transition: color 0.5s;
+}
+.image {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid maroon;
+}
+.subtitle {
+  padding-left: 10px;
+  margin-top: 20px;
+}
+.contact {
+  color: maroon;
+}
+.contact:hover {
+  color: black;
+  transition: color 0.5s;
+}
+.megablock {
+  display: flex;
+}
+.mainblock {
+  padding: 1vw;
+}
+.icon {
+  margin-right: 1vw;
+}
+.navtext, h2#contact, footer {
+  text-align: center;
+}
+p.allcontact {
+  display: inline;
+  margin: 0 4vw;
+}
+.copyright {
+  margin: 5vw;
+}
